@@ -21,3 +21,12 @@ python3 -m http.server 4173 --bind 127.0.0.1
 ```
 
 Rincian kebutuhan tersedia di [spesifikasi proyek](spec.md), sedangkan hasil pemeriksaan tercatat di [laporan verifikasi](validation.md).
+
+## Glosarium Git Singkat
+
+- **Branch:** jalur pengembangan terpisah, misalnya `main` atau `test/penjelasan-singkat-projek`.
+- **Commit:** catatan perubahan yang disimpan dalam riwayat Git lokal.
+- **Push:** mengirim commit dari repositori lokal ke repositori di GitHub.
+- **Fetch:** mengambil pembaruan dari GitHub tanpa langsung menggabungkannya ke branch aktif.
+- **Pull:** mengambil pembaruan, lalu mengintegrasikannya ke branch aktif sesuai konfigurasi Git.
+- **Merge:** memasukkan perubahan dari satu branch ke branch yang sedang aktif.
